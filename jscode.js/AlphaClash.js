@@ -11,3 +11,17 @@
 // playGround.classList.remove('hidden')
       
 // }
+
+function continueGame(){
+      const alphabet = getARanndomAlphabet();
+      console.log('your random alphadet', alphabet);
+
+
+
+}
+
+function play(){
+      hideElmentById('home-screen')
+      showElementById('play-ground')
+      continueGame()
+}

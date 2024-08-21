@@ -9,6 +9,13 @@ function showElementById(elementId){
       element.classList.remove('hidden')
 }
 
+function addBackgroundColorById(elementId){
+const element = document.getElementById(elementId);
+element.classList.add('bg-orange-500');
+}
+
+
+
 function getARanndomAlphabet(){
       const alphabetString = 'abcdefghijklmnopqrstubwxyz';
       const alphabets = alphabetString.split('');
@@ -21,7 +28,7 @@ const index = Math.round( randomNumber);
 console.log(index);
 
 const alphabet = alphabets[index];
-console.log(index,alphabet);
+// console.log(index,alphabet);
 return alphabet;
 
 }

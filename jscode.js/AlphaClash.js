@@ -13,9 +13,19 @@
 // }
 
 function continueGame(){
+
+      // random alphadet
+
       const alphabet = getARanndomAlphabet();
       console.log('your random alphadet', alphabet);
+// set current-alphabet
 
+const currentAlphabetElement = document.getElementById('current-alphabet');
+
+currentAlphabetElement.innerText = alphabet;
+// set Background Color
+
+addBackgroundColorById(alphabet);
 
 
 }

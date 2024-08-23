@@ -19,8 +19,19 @@ function addBackgroundColorById(elementId){
             const element = document.getElementById(elementId);
             element.classList.remove('bg-orange-500');
             }
-      
 
+
+            function getTrxtElementValueById(elementId)
+
+            {const element = document.getElementById(elementId);
+            const elementValueTrxt =element.innerText;
+            const value = parseInt(elementValueTrxt);
+            return value;}
+
+            function setTextElementValueById(elementId, value){const element = document.getElementById(elementId);
+                  element.innerText = value;
+
+            }
 
 
 

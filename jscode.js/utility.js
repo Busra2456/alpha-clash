@@ -36,6 +36,16 @@ function addBackgroundColorById(elementId){
 
 
 
+            function getElementTextById(elementId){
+                  const element =document.getElementById(elementId);
+                  element
+                  const text = element.innerText;
+                  return text;
+            }
+
+
+
+
 function getARanndomAlphabet(){
       const alphabetString = 'abcdefghijklmnopqrstubwxyz';
       const alphabets = alphabetString.split('');

@@ -122,4 +122,13 @@ function play(){
 function gameOver(){
       hideElmentById('play-ground')
       showElementById('final-score')
-}
+      // updade finar score
+      //1-get the final score
+      const lastScore = getTrxtElementValueById('current-score');
+      console.log(lastScore);
+      setTextElementValueById('last-score',lastScore)
+
+
+const currentAlphabet = getElementTextById('current-alphabet');
+// console.log(crrenAlphabet);
+removeBackgroundColorById(currentAlphabet);}
